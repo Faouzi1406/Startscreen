@@ -14,4 +14,4 @@ currently there are three variables
 You can use git clone to clone the project and then cargo build (You will need rust installed for this) to build the project.
 
  - If you use zsh  
-  After building the project you can simple add the path to the binary  to your .zshrc file 
+  After building the project you can simple add the path to the executable  to your .zshrc file 
