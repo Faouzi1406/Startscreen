@@ -22,7 +22,7 @@ You can use git clone to clone the project and then cargo build (You will need r
 
 📋 Working on
   
-  - Adding a weahter function so it prints the weather on start
+  - Adding a weather function so it prints the weather on start
   
   - Adding a time function so you see your local time on start
   
