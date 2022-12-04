@@ -18,3 +18,11 @@ You can use git clone to clone the project and then cargo build (You will need r
 
  - If you use zsh  
   After building the project you can simple add the path to the executable  to your .zshrc file 
+
+
+📋 Working on
+  
+  - Adding a weahter function so it prints the weather on start
+  
+  - Adding a time function so you see your local time on start
+  
