@@ -1,5 +1,7 @@
 use std::collections::HashMap;
 
+ 
+
 pub trait Variables {
     fn parse_variables(self) -> (String,String);
     fn get_variables(self) -> HashMap<String,String>;
@@ -14,9 +16,6 @@ pub trait GetVariables {
     fn get_start_print(self) -> String;
 }
 
-pub trait Actions {
-    fn weather_action();
-}
 
 
 
@@ -29,7 +28,6 @@ impl Variables for &str{
             let value = values.unwrap();
             variables =  (value.0.to_string(), value.1.to_string());
         }
-
         variables
     }
 
